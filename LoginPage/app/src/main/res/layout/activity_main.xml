@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/LoginBackgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/phone_background2" />
+
+    <TextView
+        android:id="@+id/SignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/SignImage"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sign_up" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Enter Your Personal Information"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field1"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="Name"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field2"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+            android:hint="Mobile Number"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field3"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field4"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:hint="Password"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field5"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:hint="Address Line 1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field6"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:hint="Address Line 2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field7"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_location_city_black_24dp"
+            android:hint="City"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field8"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+            android:hint="State"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/field9"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableLeft="@drawable/ic_hashtag_symbol"
+            android:hint="Zip"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rectangle_black"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Already Registered? Sign In Here"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
